@@ -66,7 +66,7 @@ Accept wildcard characters: False
 ```
 
 ### -DisplayName
-Specify the tab type
+Specify the tab display name
 
 ```yaml
 Type: String
