@@ -30,14 +30,14 @@ Set-PnPTeamsChannel -Team <TeamsTeamPipeBind> -Identity <TeamsChannelPipeBind> [
 
 ### EXAMPLE 1
 ```powershell
-Set-PnPTeamsChannel -Team "MyTeam" -Channel "MyChannel" -DisplayName "My Channel"
+Set-PnPTeamsChannel -Team "MyTeam" -Identity "MyChannel" -DisplayName "My Channel"
 ```
 
 Updates the channel called 'MyChannel' to have the display name set to 'My Channel'
 
 ### EXAMPLE 2
 ```powershell
-Set-PnPTeamsChannel -Team "MyTeam" -Channel "MyChannel" -IsFavoriteByDefault $true
+Set-PnPTeamsChannel -Team "MyTeam" -Identity "MyChannel" -IsFavoriteByDefault $true
 ```
 
 Updates the channel called 'MyChannel' to make it visible to members.
